@@ -1,0 +1,116 @@
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url('../assets/table-bg.jpg');
+  }
+
+  main header {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  main header h1 {
+    margin-bottom: 0;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 68px;
+    color: ghostwhite;
+    text-shadow: 6px 4px saddlebrown;
+  }
+
+  main header img {
+    width: 81px;
+    height: 48px;
+  }
+
+  main .container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .container section {
+    width: 300px;
+    padding: 24px 24px;
+    background-color: beige;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px 1px rosybrown;
+  }
+
+  main .container section img {
+    width: 160px;
+    height: 160px;
+  }
+
+  main .container section h3 {
+    margin-bottom: 8px;
+    font-size: 32px;
+    color: darkslategray;
+  }
+
+  main .container section h4 {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 22px;
+    color: slategray;
+  }
+
+  main .container section p {
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-size: 18px;
+    color: darkgray;
+  }
+
+  main .container section .controls {
+    height: 42px;
+    margin-bottom: 18px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  main .container section input {
+    width: 75%;
+    margin: 0 8px 0 0;
+    padding: 4px 8px;
+    font-size: 18px;
+    color: gray;
+    border: none;
+    border-radius: 4px;
+  }
+
+  main .container section input::placeholder {
+    color: lightgray;
+  }
+
+  main .container section button {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 8px;
+    background-color: palegreen;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  main .container section .ingredients span {
+    margin: 0 8px 8px 0;
+    padding: 6px 8px;
+    display: inline-block;
+    background-color: darkolivegreen;
+    font-size: 18px;
+    color: white;
+    border-radius: 6px;
+  }
